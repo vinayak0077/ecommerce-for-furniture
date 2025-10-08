@@ -1,4 +1,6 @@
-import {supabase} from "./supabase_control";
+console.log("can see the script file")
+
+import {supabase} from "./supabase_control.js";
 
 async function open_login_page(){
     window.open("login.html", "_self");
